@@ -4,7 +4,7 @@ public class Pessoa {
     private String nome;
     private int idade;
 
-    
+
     public String getNome() {
         return nome;
     }
@@ -18,5 +18,8 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Nome: " + getNome() + " e idade: " + getIdade();
+    }
 }
