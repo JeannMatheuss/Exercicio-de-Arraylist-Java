@@ -19,5 +19,11 @@ public class Principal {
         Pessoa pessoa3 = new Pessoa();
         pessoa3.setNome("João");
         pessoa3.setIdade(25);
+
+        listaDePessoas.add(pessoa3);
+        listaDePessoas.add(pessoa2);
+        listaDePessoas.add(pessoa1);
+
+        
     }
 }
