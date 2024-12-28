@@ -24,6 +24,9 @@ public class Principal {
         listaDePessoas.add(pessoa2);
         listaDePessoas.add(pessoa1);
 
-        
+        System.out.println("Quantidade de pessoas na lista: " + listaDePessoas.size());
+        System.out.println("Primeiro nome da lista: " + listaDePessoas.get(0).getNome());
+
+        System.out.println(listaDePessoas);
     }
 }
