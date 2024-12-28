@@ -1,18 +1,32 @@
-## Getting Started
+# Exercício: Trabalhando com `ArrayList` e Classes em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este exercício demonstra o uso da classe `ArrayList` para armazenar objetos personalizados. Aqui, criamos uma lista de pessoas utilizando a classe `Pessoa`, que possui atributos de `nome` e `idade`.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Estrutura do Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O projeto é composto por duas classes:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **`Pessoa`**: Representa um modelo com os atributos `nome` e `idade`.
+2. **`Principal`**: Classe principal onde a lista de pessoas é manipulada.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## Funcionamento
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Criação da lista**: Utiliza `ArrayList<Pessoa>` para armazenar objetos do tipo `Pessoa`.
+2. **Adição de elementos**: Objetos `Pessoa` são instanciados, configurados e adicionados à lista.
+3. **Manipulação e exibição**:
+   - A quantidade de elementos na lista é exibida com o método `size()`.
+   - O primeiro elemento da lista é acessado com o método `get(0)`.
+   - A lista completa é exibida utilizando o método sobrescrito `toString()`.
+
+---
+
+## Exemplo de Saída no Console
+
+```plaintext
+Quantidade de pessoas na lista: 3
+Primeiro nome da lista: João
+[Nome: João e idade: 25, Nome: Márcia e idade: 12, Nome: Jean e idade: 19]
