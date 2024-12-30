@@ -25,5 +25,9 @@ public class Principal1 {
         listaProdutos.add(produto2);
         listaProdutos.add(produto3);
 
+        System.out.println("Numero de itens na lista: " + listaProdutos.size());
+        System.out.println("Indice 1: " + listaProdutos.get(0));
+        System.out.println("Indice 2: " + listaProdutos.get(1));
+        System.out.println("Indice 3: " + listaProdutos.get(2));
     }
 }
