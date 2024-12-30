@@ -5,7 +5,11 @@ public class Produtos {
     private double preco;
     private int quantidade;
 
-    
+    @Override
+    public String toString() {
+        return "Produto: " + getNome() + ", preço: " + getPreco() + ", quantidade: " + getQuantidade();
+    }
+
     public String getNome() {
         return nome;
     }
