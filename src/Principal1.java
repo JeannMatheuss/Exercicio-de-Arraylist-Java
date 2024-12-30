@@ -5,20 +5,20 @@ import br.com.exercicio.modelos1.Produtos;
 public class Principal1 {
     public static void main(String[] args) {
         
-        Produtos produto1 = new Produtos();
-        produto1.setNome("Coca-Cola");
-        produto1.setPreco(5.00);
-        produto1.setQuantidade(10);
+        Produtos produto1 = new Produtos("Coca-Cola", 5.00, 10);
+        // produto1.setNome("Coca-Cola");
+        // produto1.setPreco(5.00);
+        // produto1.setQuantidade(10);
 
-        Produtos produto2 = new Produtos();
-        produto2.setNome("Guarana");
-        produto2.setPreco(4.00);
-        produto2.setQuantidade(15);
+        Produtos produto2 = new Produtos("Guarana", 4.00, 15);
+        // produto2.setNome("Guarana");
+        // produto2.setPreco(4.00);
+        // produto2.setQuantidade(15);
 
-        Produtos produto3 = new Produtos();
-        produto3.setNome("Fanta");
-        produto3.setPreco(3.00);
-        produto3.setQuantidade(20);
+        Produtos produto3 = new Produtos("Fanta", 3.00, 20);
+        // produto3.setNome("Fanta");
+        // produto3.setPreco(3.00);
+        // produto3.setQuantidade(20);
 
         ArrayList<Produtos> listaProdutos = new ArrayList<>();
         listaProdutos.add(produto1);
