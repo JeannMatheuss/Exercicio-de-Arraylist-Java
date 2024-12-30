@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+import br.com.exercicio.modelos1.ProdutoPerecivel;
 import br.com.exercicio.modelos1.Produtos;
 
 public class Principal1 {
@@ -30,6 +31,11 @@ public class Principal1 {
         System.out.println("Indice 2 -> " + listaProdutos.get(1));
         System.out.println("Indice 3 -> " + listaProdutos.get(2));
 
-        System.out.println(listaProdutos);
+        for (Produtos produto : listaProdutos) {
+            System.out.println(produto);
+        }
+
+        ProdutoPerecivel produtoPerecivel = new ProdutoPerecivel("Produto C", 12.75, 2, "2023-12-31");
+        System.out.println(produtoPerecivel);
     }
 }
